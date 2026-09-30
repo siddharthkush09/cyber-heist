@@ -20,7 +20,7 @@ import {
 
 const __dirname = fileURLToPath(new URL('.', import.meta.url));
 const publicRoot = join(__dirname, '../../public');
-const clientRoot = join(__dirname, '../client');
+const clientRoot = join(__dirname, '.');
 export const port = Number(process.env.PORT || 3000);
 export const host = process.env.HOST || '0.0.0.0';
 
